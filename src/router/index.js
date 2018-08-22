@@ -71,6 +71,18 @@ export const constantRouterMap = [
       }
     ]
   },
+  {
+    path: '/seoinfo',
+    component: Layout,
+    children: [
+      {
+        path: 'seoinfo',
+        name: 'seoinfo',
+        component: () => import('@/views/seoinfo/seoinfo'),
+        meta: { title: '综合查询', icon: 'form' }
+      }
+    ]
+  },
 
   { path: '*', redirect: '/404', hidden: true }
 ]
