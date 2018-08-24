@@ -83,6 +83,19 @@ export const constantRouterMap = [
       }
     ]
   },
+  {
+    path: '/map',
+    component: Layout,
+    children: [
+      {
+        path: 'maptalks',
+        name: 'maptalks',
+        component: () => import('@/views/map/maptalks'),
+        meta: { title: 'maptalks', icon: 'form' }
+      }
+    ]
+  },
+
 
   { path: '*', redirect: '/404', hidden: true }
 ]

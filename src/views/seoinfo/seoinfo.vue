@@ -4,12 +4,15 @@
       <div class="row">
         <div class="col-left">
 
-          <div class="newseo-head">新建案件</div>
+          <div class="newseo-head">
+            <svg class="icon of-gr" aria-hidden="true"><use href="#icon-title"></use></svg>
+              <span>新建案件</span>
+          </div>
           <div class="newseo-commit">
-            <div>保存</div>
-            <div>在线办结</div>
-            <div>发送部门</div>
-            <div>无效案件</div>
+            <div class="icon_operate_save">保存</div>
+            <div class="icon_operate_case-se">在线办结</div>
+            <div class="icon_operate_send-de">发送部门</div>
+            <div class="icon_operate_obsolet">无效案件</div>
           </div>
           <div class="newseo-line"></div>
           <div class="newseo-from">
@@ -118,7 +121,8 @@
             </el-form>
           </div>
         </div>
-        <div class="col-right">历史案件</div>
+        <div class="col-right">
+        </div>
       </div>
     </div>
 
@@ -151,7 +155,16 @@
 
   }
 </script>
-
+<style lang="scss" scoped="" type="text/css">
+  .icon_operate_save {background:#fff url("../../assets/images/icon/icon_operate_save.png") no-repeat 15px center;}
+  .icon_operate_save:hover {background:#4181ff url("../../assets/images/icon/icon_operate_save-active.png") no-repeat 15px center;color:#fff;}
+  .icon_operate_case-se {background:#fff url("../../assets/images/icon/icon_operate_case-se.png") no-repeat 15px center;}
+  .icon_operate_case-se:hover {background:#4181ff url("../../assets/images/icon/icon_operate_case-se-active.png") no-repeat 15px center;color:#fff;}
+  .icon_operate_send-de {background:#fff url("../../assets/images/icon/icon_operate_send-de.png") no-repeat 15px center;}
+  .icon_operate_send-de:hover {background:#4181ff url("../../assets/images/icon/icon_operate_send-de-active.png") no-repeat 15px center;color:#fff;}
+  .icon_operate_obsolet {background:#fff url("../../assets/images/icon/icon_operate_obsolet.png") no-repeat 15px center;}
+  .icon_operate_obsolet:hover {background:#4181ff url("../../assets/images/icon/icon_operate_obsolet-active.png") no-repeat 15px center;color:#fff;}
+</style>
 <style scoped>
   .seoinfo-mian {
     position: relative;
@@ -167,7 +180,6 @@
 
   .row {
     display: flex;
-    height: 800px;
   }
 
   .col-left {
@@ -180,7 +192,17 @@
     flex-direction: column;
     padding: 20px;
   }
-
+  .newseo-head{
+    font-size: 16px;
+    color: #4181ff;
+    font-weight: bold;
+  }
+  .icon {
+        width: 1em; height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
   .newseo-commit {
     display: flex;
   }

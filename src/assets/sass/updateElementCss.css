@@ -1,0 +1,20 @@
+.updateStyle .el-input__inner {border:1px solid #b3cdff;}
+.updateStyle .el-input-group__append {background:#4181ff;border: 1px solid #4181ff;color: #fff;padding:0 10px;}
+.updateStyle thead th {padding:5px 0;}
+.updateStyle thead th .cell {color:#4181ff;}
+.updateStyle.el-table {color:#333;}
+
+.from-table .el-table {border:1px solid #ebebeb;color:#333;}
+.from-table .el-table thead {color:#808080;}
+.from-table .el-table th {background:#f6faff;font-weight:normal;}
+.from-table .el-table tbody td {border:none;}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {background:#4181ff;}
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {width:24px;height:24px;border: solid 1px #bfc5d4;border-radius: 3px;background:#fff;color:#bfc5d4;font-weight:normal;}
+.table-header-icon {float:left;width:100%;}
+.table-header-icon .icon {float:left;margin-right:10px;}
+.el-input__inner {height:32px;line-height:32px;}
+.el-select {width:100%;}
+.el-input__icon {line-height:32px;}
+.el-radio {margin-top:9px;}
+

@@ -16,6 +16,8 @@
     "axios": "0.17.1",
     "element-ui": "2.3.4",
     "js-cookie": "2.2.0",
+    "maptalks": "^0.40.5",
+    "maptalks.markercluster": "^0.8.2",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
     "vue": "2.5.10",
